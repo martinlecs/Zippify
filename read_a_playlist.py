@@ -9,22 +9,28 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 # 2 inputs means that you are passed the username and playlist uri
 # 1 input means that you are passed a direct url to the playlist
 # Sample input python read_a_playlist.py https://open.spotify.com/user/12186663114/playlist/2XcRigegs6l625qChqARQd
+def getTracks(name = None, playlist_input = None):
+  if playlist_input is not None:
+    username = name
+    playlist_id = playlist_input
+  elif playlist_input is None:
+    url = name
+    username = url.split('/')[4]  
+    playlist_id = url.split('/')[6] 
+  else:
+    print ("Usage: %s userid playlist_id ... || %s url" % (sys.argv[0],))
+    sys.exit()
 
-if len(sys.argv) > 2:
-  username = sys.argv[1]
-  playlist_id = sys.argv[2]
-elif len(sys.argv) > 1:
-  url = sys.argv[1]
-  username = url.split('/')[4]  
-  playlist_id = url.split('/')[6] 
-else:
-  print ("Usage: %s userid playlist_id ... || %s url" % (sys.argv[0],))
-  sys.exit()
 
+  results = sp.user_playlist(username, playlist_id)
 
-results = sp.user_playlist(username, playlist_id)
+  i = 0
+  #Compile list of tracks
+  tracks = []
+  while (i < len(results['tracks']['items'])):
+    tracks.append(results['tracks']['items'][i]['track']['id'])
+    i += 1
 
-i = 0
-while (i < len(results['tracks']['items'])):
-  print results['tracks']['items'][i]['track']['name']
-  i += 1
+  return tracks
+
+getTracks(name='12186663114', playlist_input='05glWp9urqIVvIGmD2vbCk')
