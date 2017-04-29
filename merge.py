@@ -5,16 +5,31 @@ import random
 # remove duplicates in two playlists
 def remove_dups(A,B):
     seen = {}
-    for elem in A:
-        if elem not in seen.keys():
-            seen[elem] = 1
-        else:
-            A.remove(elem)
-    for elem in B:
-        if elem not in seen.keys():
-            seen[elem] = 1
-        else:
-            B.remove(elem)
+    # remove duplicates from longer list
+    if len(A) >= len(B):
+        for elem in B:
+            if elem not in seen.keys():
+                seen[elem] = 1
+            else:
+                B.remove(elem)
+        for elem in A:
+            if elem not in seen.keys():
+                seen[elem] = 1
+            else:
+                A.remove(elem)
+
+
+    else:
+        for elem in A:
+            if elem not in seen.keys():
+                seen[elem] = 1
+            else:
+                A.remove(elem)
+        for elem in B:
+            if elem not in seen.keys():
+                seen[elem] = 1
+            else:
+                B.remove(elem)
 
 
 # playlist A
@@ -35,12 +50,13 @@ random.shuffle(A)
 random.shuffle(B)
 
 def merge_diff_length(list1,list2):
-    num = min(len(list1), len(list2))
-    result = [None]*(num*2)
-    result[::2] = list1[:num]
-    result[1::2] = list2[:num]
-    result.extend(list1[num:])
-    result.extend(list2[num:])
+    result = []
+    for i in range( max(len(list1), len(list2))):
+        if i+1 <= len(list1):
+            result += [list1[i]]
+
+        if i+1 <= len(list2):
+            result += [list2[i]]
     print result
 
 
