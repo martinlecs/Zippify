@@ -11,7 +11,10 @@ from read_a_playlist import getTracks
 from merge import merge
 from user_playlists import getPlaylists
 
-scope = 'playlist-modify-private'
+scope = 'playlist-modify-public'
+clientID = "ec548750929f4ba7925acbe76d9b0abe"
+secret = "b9ca5d242fd240d6900a49443e2b379d"
+returnuri = "http://localhost:8888/callback"
 
 
 #Initial Call Main.py Userid 
@@ -32,43 +35,44 @@ def makePlaylist(username, playlist_options, playlist_name, playlist_url):
     keys = playlist_options.keys()
     r = re.compile(".*"+playlist_name+".*")
     playlist_id = filter(r.match, keys)
+    #incorrect key
     playlist_id = playlist_options[playlist_id[0]]
+    #print(playlist_id)  #this is incorrect
     #Track 1 = Playlist id -> need to use id to get list of tracks
-    track1 = getTracks(name=username, playlist_input=playlist_id) 
+    #saying that it doesn't exist
+    track1 = getTracks(name=username, playlist_input="1mLcnbKN3MnvTEkwTpDKz5")
+    #print(track1)
     #Track 2 = url -> need to use url to get list of tracks
-    track2 = getTracks(name=playlist_url)
+
+    # also wrong
+    track2 = getTracks(name= "12186663114",  playlist_input="76wWOIbVfP1O6U0nUmCKXO") #playlist_url
+    #print(track2)
 
     #merge playlists
     # get a list of songs that will be added into the new playlist
     track_ids = merge(track1, track2)
-    print("hello world")
+    #print(track_ids)
 
-    client_credentials_manager = SpotifyClientCredentials()
-    sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
-    # # token = sp._auth_headers()
+    token = util.prompt_for_user_token(username, scope, clientID, secret, returnuri)
 
-    token = util.prompt_for_user_token(username, scope)
-    print(token)
-    # os.remove(".cache-" + username)
+    # os.remove(".cache-" + username)s
     if token:
-    #userid = sp.me()['uri'] someone's user id must be processed before this function
-        # sp = spotipy.Spotify(auth=token)
-        # sp.trace = False
+
+        sp = spotipy.Spotify(auth=token)
+        sp.trace = False
 
         # # #create a new playlist for yourself
         playlists = sp.user_playlist_create(username, playlist_name, public=True)
         # get playlist id
         plid = playlists['id']
+        #print(plid)
 
         # # Add songs
-        #     if (os.path.exists(".cache-" + username)):
-        #         print "file deleted"
-        #         os.remove(".cache-" + username)
         results = sp.user_playlist_add_tracks(username, plid, track_ids)
-        print(results)
-        return results
+        #print(playlists['external_urls']['spotify'])
+        return(playlists['external_urls']['spotify'])
 
     else:
         print("Can't get token for", username)
 
-makePlaylist(username='12186663114', playlist_options=findPlayLists(username='12186663114'),playlist_name='test2',playlist_url='https://open.spotify.com/user/12186663114/playlist/5iBkCrMuq3XB6ti9ZfjhuX')
+makePlaylist(username='1251616626', playlist_options=findPlayLists(username='1251616626'),playlist_name='test',playlist_url='https://open.spotify.com/user/12186663114/playlist/5iBkCrMuq3XB6ti9ZfjhuX')

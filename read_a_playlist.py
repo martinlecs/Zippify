@@ -21,7 +21,6 @@ def getTracks(name = None, playlist_input = None):
     print ("Usage: %s userid playlist_id ... || %s url" % (sys.argv[0],))
     sys.exit()
 
-
   results = sp.user_playlist(username, playlist_id)
 
   i = 0
@@ -33,4 +32,4 @@ def getTracks(name = None, playlist_input = None):
 
   return tracks
 
-getTracks(name='12186663114', playlist_input='05glWp9urqIVvIGmD2vbCk')
+# getTracks(name='1251616626', playlist_input='05glWp9urqIVvIGmD2vbCk')

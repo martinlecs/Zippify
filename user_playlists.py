@@ -29,7 +29,7 @@ def getPlaylists(username=None):
 
 	#print results.keys()
 	# os.remove(".cache-" + username)
-	print results.keys()
+	#print results.keys()
 	return results
 
 	# if token:
@@ -46,4 +46,4 @@ def getPlaylists(username=None):
 	# print results.keys()
 	# return results
 
-getPlaylists(username='12186663114')
+# getPlaylists(username='1251616626')
