@@ -1,3 +1,5 @@
+/* GENERAL */
+
 html * {
   background-color: black;
   color: white;
@@ -5,13 +7,45 @@ html * {
   font-weight: 300;
 }
 
+html,body { height:100%; }
+
+#dash .my-list .col-md-6 a {
+	color: white;
+	text-decoration: none;
+}
+
+#dash .my-list .col-md-6 a:hover, a:focus{
+	background-color: #333333;
+}
+
+#dash .my-list .col-md-6 a:active {
+  background-color:
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.wrapper {
+	width: 1440px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+/* INDEX */
+
 .logo {
   width: 60%;
   height: 60%;
   padding-bottom: 40px;
 }
 
-.login-button {
+.button {
   border: none;
   outline: none;
   padding: 1em 4.5em;
@@ -29,4 +63,105 @@ html * {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* DASH */
+
+.logo-inner {
+  margin: 5em 0 0 140px;
+  float: left;
+  width: 10%;
+  height: 10%;
+}
+
+input {
+  width: 70%;
+  margin: .5%;
+  height: 3.25em;
+  border: none;
+  outline: none;
+  border-radius: 2em;
+  background: white;
+  padding: .5em 1.25em;
+  font-size: .8em;
+  color: white;
+}
+
+#dash {
+  padding: 90px 140px;
+}
+
+#dash .my-list .col-md-6 {
+  padding-right: 70px;
+}
+
+#dash .join-list .col-md-6 {
+  padding-left: 70px;
+}
+
+#dash .join-list .join-instructions {
+  padding: 115px 0;
+}
+
+.join-text {
+  margin-bottom: 30px;
+}
+
+.user-photo {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+#dash-bottom .selection{
+  background-color: #282828;
+  padding: 40px 240px;
+  height: 150px;
+}
+
+#dash-bottom .col-md-4 {
+  background-color: #282828;
+}
+
+#dash-bottom .col-md-8 {
+  background-color: #282828;
+}
+
+#dash-bottom .col-md-3 {
+  background-color: #282828;
+}
+
+#dash-bottom p {
+  background-color: #282828;
+}
+
+#dash-bottom .num-songs {
+  font-size: 10pt;
+  color: #8C8C8C;
+}
+
+.dash-button {
+  border: none;
+  outline: none;
+  padding: 1em 4.5em;
+  border-radius: 2em;
+  background: #2EBD59;
+  color: white;
+  font-size: .9em;
+  margin: 30px 0px;
+}
+
+.confirm-button {
+  border: none;
+  outline: none;
+  padding: 1em 4.5em;
+  border-radius: 2em;
+  background: #2EBD59;
+  color: white;
+  font-size: .9em;
+  margin: 10px 0px;
+}
+
+.num-songs {
+
 }
