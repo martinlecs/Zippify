@@ -9,6 +9,14 @@ html * {
 
 html,body { height:100%; }
 
+#dash .choose-heading {
+  padding-bottom: 20px;
+}
+
+#dash .playlist-name {
+  margin: 20px 0;
+}
+
 #dash .my-list .col-md-6 a {
 	color: white;
 	text-decoration: none;
