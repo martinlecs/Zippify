@@ -4,15 +4,15 @@
   <title>Zippify for Spotify | Dashboard</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="assets/img/favicons/zippify.ico">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicons/zippify.ico')}}">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}" />
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
 </head>
 <body>
   <div id="dash-bar" class="clearfix">
-    <img class="logo-inner" src="assets/img/zippify_logo.svg" alt="Zippify">
+    <img class="logo-inner" src="{{ url_for('static', filename='img/zippify_logo.svg')}}" alt="Zippify">
   </div>
 
   <div id="dash" class="clearfix">
@@ -50,7 +50,7 @@
     <div class="selection">
       <div class="col-md-4" class="clearfix">
         <div class="col-md-4" class="clearfix">
-          <img class="user-photo" src="assets/img/sam.jpg" alt="Your Playlist">
+          <img class="user-photo" src="{{ url_for('static', filename='img/sam.jpg')}}" alt="Your Playlist">
         </div>
         <div class="col-md-8" class="clearfix">
           <p>Hamilton</p>
@@ -59,7 +59,7 @@
       </div>
       <div class="col-md-4" class="clearfix">
         <div class="col-md-4" class="clearfix">
-          <img class="user-photo" src="assets/img/yuv.jpg" alt="Mate's Playlist">
+          <img class="user-photo" src="{{ url_for('static', filename='img/yuv.jpg')}}" alt="Mate's Playlist">
         </div>
         <div class="col-md-8" class="clearfix">
           <p>Summer Roadtrip</p>
