@@ -10,6 +10,7 @@ import spotipy
 import spotipy.util as util
 import glob
 
+results = {}
 
 if len(sys.argv) > 1:
     username = sys.argv[1]
@@ -24,8 +25,9 @@ if token:
     sp = spotipy.Spotify(auth=token)
     playlists = sp.user_playlists(username)
     for playlist in playlists['items']:
-        print(playlist['name'])
+        results[playlist['name']] = playlist['id']
 else:
 	print("Can't get token for", username)
 
+print results.keys()
 os.remove(".cache-" + username)
