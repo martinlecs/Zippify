@@ -1,0 +1,32 @@
+html * {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.logo {
+  width: 60%;
+  height: 60%;
+  padding-bottom: 40px;
+}
+
+.login-button {
+  border: none;
+  outline: none;
+  padding: 1em 4.5em;
+  border-radius: 2em;
+  background: #2EBD59;
+  color: white;
+  font-size: .9em;
+  margin-top: 3em;
+}
+
+.login-elements {
+  width: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
