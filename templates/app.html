@@ -18,16 +18,12 @@
   <div id="dash" class="clearfix">
     <div class="my-list">
       <div class="col-md-6">
-        <h1 class="choose-heading">Choose your playlist</h1>
-        <hr>
-        <a class="playlist-name">Beyonce Jams</a>
-        <hr>
-        <a class="playlist-name">Summer Playlist</a>
-        <hr>
-        <a class="playlist-name">Hamilton</a>
-        <hr>
-        <a class="playlist-name">Pop Jams</a>
-        <hr>
+        <h1>Choose your playlist</h1>
+            {% for key, value in result.items()%}
+              <hr>
+              <a class="playlist-name">{{key}}</a>
+              <hr>
+            {%endfor%}
       </div>
     </div>
 
@@ -37,10 +33,12 @@
         <hr>
         <div class="join-instructions">
           <p class="join-text">Copy playlist URL:</p>
-          <input type="text" placeholder="Copy your friend's playlist URL">
-          <br>
-          <button class="dash-button">NEXT</button>
         </div>
+        <form action="" class="form-inline" method="post">
+          <input type="text" placeholder="Copy your friend's playlist URL" name="playlist-url" value="{{request.form.username}}">
+          <br>
+          <button class="dash-button" type="submit">NEXT</button>
+        </form>
         <hr>
       </div>
     </div>
