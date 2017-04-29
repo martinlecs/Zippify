@@ -20,7 +20,7 @@ else:
     sys.exit()
 
 
-token = util.prompt_for_user_token(username, scope)
+token = util.prompt_for_user_token(username, scope, 'ec548750929f4ba7925acbe76d9b0abe', 'b9ca5d242fd240d6900a49443e2b379d', 'http://localhost:8888/callback')
 
 if token:
 
@@ -35,9 +35,10 @@ if token:
     plid = playlists['id']
 
     # # Add songs
-    #track = [track_ids]
     results = sp.user_playlist_add_tracks(username, plid, track_ids)
-    print(results)
+
+    #print url
+    print(playlists['external_urls']['spotify'])
 
 
 else:
