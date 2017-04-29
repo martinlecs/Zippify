@@ -1,0 +1,1700 @@
+{
+    "description": null,
+    "collaborative": false,
+    "external_urls": {
+        "spotify": "http://open.spotify.com/user/12186663114/playlist/2XcRigegs6l625qChqARQd"
+    },
+    "uri": "spotify:user:12186663114:playlist:2XcRigegs6l625qChqARQd",
+    "public": true,
+    "owner": {
+        "href": "https://api.spotify.com/v1/users/12186663114",
+        "type": "user",
+        "id": "12186663114",
+        "uri": "spotify:user:12186663114",
+        "external_urls": {
+            "spotify": "http://open.spotify.com/user/12186663114"
+        }
+    },
+    "tracks": {
+        "items": [
+            {
+                "is_local": false,
+                "track": {
+                    "album": {
+                        "album_type": "album",
+                        "name": "Hamilton (Original Broadway Cast Recording)",
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1kCHru7uhxBUdzkm4gzRQc"
+                        },
+                        "uri": "spotify:album:1kCHru7uhxBUdzkm4gzRQc",
+                        "href": "https://api.spotify.com/v1/albums/1kCHru7uhxBUdzkm4gzRQc",
+                        "artists": [
+                            {
+                                "name": "Various Artists",
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                                },
+                                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                                "type": "artist",
+                                "id": "0LyfQWJT6nXafLPZqxe9Of"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/680f63e0199dc160f414b5be084b3d91493c67a6",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/cab99e12568f975eacaf11dac9493d7c07e51e4e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/6578cd1487e860466928a896e93c8e1641744e04",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "type": "album",
+                        "id": "1kCHru7uhxBUdzkm4gzRQc",
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY"
+                        ]
+                    },
+                    "name": "Stay Alive",
+                    "uri": "spotify:track:27MB0qHaYAZiTlwg25js1Y",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/27MB0qHaYAZiTlwg25js1Y"
+                    },
+                    "popularity": 68,
+                    "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/bef912f2e2c04984d9571c0cc3dff8f9176be016?cid=ec548750929f4ba7925acbe76d9b0abe",
+                    "track_number": 14,
+                    "disc_number": 1,
+                    "href": "https://api.spotify.com/v1/tracks/27MB0qHaYAZiTlwg25js1Y",
+                    "artists": [
+                        {
+                            "name": "Original Broadway Cast of Hamilton",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3UUJfRbrA2nTbcg4i0MOwu"
+                            },
+                            "uri": "spotify:artist:3UUJfRbrA2nTbcg4i0MOwu",
+                            "href": "https://api.spotify.com/v1/artists/3UUJfRbrA2nTbcg4i0MOwu",
+                            "type": "artist",
+                            "id": "3UUJfRbrA2nTbcg4i0MOwu"
+                        }
+                    ],
+                    "duration_ms": 159102,
+                    "external_ids": {
+                        "isrc": "USAT21502609"
+                    },
+                    "type": "track",
+                    "id": "27MB0qHaYAZiTlwg25js1Y",
+                    "available_markets": [
+                        "AD",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "EC",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IS",
+                        "IT",
+                        "JP",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "PY",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY"
+                    ]
+                },
+                "added_by": {
+                    "href": "https://api.spotify.com/v1/users/12186663114",
+                    "type": "user",
+                    "id": "12186663114",
+                    "uri": "spotify:user:12186663114",
+                    "external_urls": {
+                        "spotify": "http://open.spotify.com/user/12186663114"
+                    }
+                },
+                "added_at": "2016-09-29T00:38:13Z"
+            },
+            {
+                "is_local": false,
+                "track": {
+                    "album": {
+                        "album_type": "album",
+                        "name": "Hamilton (Original Broadway Cast Recording)",
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1kCHru7uhxBUdzkm4gzRQc"
+                        },
+                        "uri": "spotify:album:1kCHru7uhxBUdzkm4gzRQc",
+                        "href": "https://api.spotify.com/v1/albums/1kCHru7uhxBUdzkm4gzRQc",
+                        "artists": [
+                            {
+                                "name": "Various Artists",
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                                },
+                                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                                "type": "artist",
+                                "id": "0LyfQWJT6nXafLPZqxe9Of"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/680f63e0199dc160f414b5be084b3d91493c67a6",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/cab99e12568f975eacaf11dac9493d7c07e51e4e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/6578cd1487e860466928a896e93c8e1641744e04",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "type": "album",
+                        "id": "1kCHru7uhxBUdzkm4gzRQc",
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY"
+                        ]
+                    },
+                    "name": "Ten Duel Commandments",
+                    "uri": "spotify:track:3lXyAQ0kekAvY5LodpWmUs",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/3lXyAQ0kekAvY5LodpWmUs"
+                    },
+                    "popularity": 68,
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/21b78a63cd4d614aff3bb23566de7703d4f10405?cid=ec548750929f4ba7925acbe76d9b0abe",
+                    "track_number": 15,
+                    "disc_number": 1,
+                    "href": "https://api.spotify.com/v1/tracks/3lXyAQ0kekAvY5LodpWmUs",
+                    "artists": [
+                        {
+                            "name": "Anthony Ramos",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/660YptcR0hNHJ8iEr1qcse"
+                            },
+                            "uri": "spotify:artist:660YptcR0hNHJ8iEr1qcse",
+                            "href": "https://api.spotify.com/v1/artists/660YptcR0hNHJ8iEr1qcse",
+                            "type": "artist",
+                            "id": "660YptcR0hNHJ8iEr1qcse"
+                        },
+                        {
+                            "name": "Lin-Manuel Miranda",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4aXXDj9aZnlshx7mzj3W1N"
+                            },
+                            "uri": "spotify:artist:4aXXDj9aZnlshx7mzj3W1N",
+                            "href": "https://api.spotify.com/v1/artists/4aXXDj9aZnlshx7mzj3W1N",
+                            "type": "artist",
+                            "id": "4aXXDj9aZnlshx7mzj3W1N"
+                        },
+                        {
+                            "name": "Jon Rua",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/69NsP4MC1JbfvKMwpx2oy8"
+                            },
+                            "uri": "spotify:artist:69NsP4MC1JbfvKMwpx2oy8",
+                            "href": "https://api.spotify.com/v1/artists/69NsP4MC1JbfvKMwpx2oy8",
+                            "type": "artist",
+                            "id": "69NsP4MC1JbfvKMwpx2oy8"
+                        },
+                        {
+                            "name": "Leslie Odom Jr.",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3cR4rhS2hBWqI7rJEBacvN"
+                            },
+                            "uri": "spotify:artist:3cR4rhS2hBWqI7rJEBacvN",
+                            "href": "https://api.spotify.com/v1/artists/3cR4rhS2hBWqI7rJEBacvN",
+                            "type": "artist",
+                            "id": "3cR4rhS2hBWqI7rJEBacvN"
+                        },
+                        {
+                            "name": "Original Broadway Cast of Hamilton",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3UUJfRbrA2nTbcg4i0MOwu"
+                            },
+                            "uri": "spotify:artist:3UUJfRbrA2nTbcg4i0MOwu",
+                            "href": "https://api.spotify.com/v1/artists/3UUJfRbrA2nTbcg4i0MOwu",
+                            "type": "artist",
+                            "id": "3UUJfRbrA2nTbcg4i0MOwu"
+                        }
+                    ],
+                    "duration_ms": 106646,
+                    "external_ids": {
+                        "isrc": "USAT21502610"
+                    },
+                    "type": "track",
+                    "id": "3lXyAQ0kekAvY5LodpWmUs",
+                    "available_markets": [
+                        "AD",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "EC",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IS",
+                        "IT",
+                        "JP",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "PY",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY"
+                    ]
+                },
+                "added_by": {
+                    "href": "https://api.spotify.com/v1/users/12186663114",
+                    "type": "user",
+                    "id": "12186663114",
+                    "uri": "spotify:user:12186663114",
+                    "external_urls": {
+                        "spotify": "http://open.spotify.com/user/12186663114"
+                    }
+                },
+                "added_at": "2016-09-29T00:38:30Z"
+            },
+            {
+                "is_local": false,
+                "track": {
+                    "album": {
+                        "album_type": "album",
+                        "name": "Hamilton (Original Broadway Cast Recording)",
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1kCHru7uhxBUdzkm4gzRQc"
+                        },
+                        "uri": "spotify:album:1kCHru7uhxBUdzkm4gzRQc",
+                        "href": "https://api.spotify.com/v1/albums/1kCHru7uhxBUdzkm4gzRQc",
+                        "artists": [
+                            {
+                                "name": "Various Artists",
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                                },
+                                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                                "type": "artist",
+                                "id": "0LyfQWJT6nXafLPZqxe9Of"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/680f63e0199dc160f414b5be084b3d91493c67a6",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/cab99e12568f975eacaf11dac9493d7c07e51e4e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/6578cd1487e860466928a896e93c8e1641744e04",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "type": "album",
+                        "id": "1kCHru7uhxBUdzkm4gzRQc",
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY"
+                        ]
+                    },
+                    "name": "Meet Me Inside",
+                    "uri": "spotify:track:6p7jXaTJdpzGWnOJoK2jYr",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/6p7jXaTJdpzGWnOJoK2jYr"
+                    },
+                    "popularity": 67,
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/c2ccb31a9bdba7cd5cc54688ef3cc588a7568ecb?cid=ec548750929f4ba7925acbe76d9b0abe",
+                    "track_number": 16,
+                    "disc_number": 1,
+                    "href": "https://api.spotify.com/v1/tracks/6p7jXaTJdpzGWnOJoK2jYr",
+                    "artists": [
+                        {
+                            "name": "Lin-Manuel Miranda",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4aXXDj9aZnlshx7mzj3W1N"
+                            },
+                            "uri": "spotify:artist:4aXXDj9aZnlshx7mzj3W1N",
+                            "href": "https://api.spotify.com/v1/artists/4aXXDj9aZnlshx7mzj3W1N",
+                            "type": "artist",
+                            "id": "4aXXDj9aZnlshx7mzj3W1N"
+                        },
+                        {
+                            "name": "Leslie Odom Jr.",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3cR4rhS2hBWqI7rJEBacvN"
+                            },
+                            "uri": "spotify:artist:3cR4rhS2hBWqI7rJEBacvN",
+                            "href": "https://api.spotify.com/v1/artists/3cR4rhS2hBWqI7rJEBacvN",
+                            "type": "artist",
+                            "id": "3cR4rhS2hBWqI7rJEBacvN"
+                        },
+                        {
+                            "name": "Anthony Ramos",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/660YptcR0hNHJ8iEr1qcse"
+                            },
+                            "uri": "spotify:artist:660YptcR0hNHJ8iEr1qcse",
+                            "href": "https://api.spotify.com/v1/artists/660YptcR0hNHJ8iEr1qcse",
+                            "type": "artist",
+                            "id": "660YptcR0hNHJ8iEr1qcse"
+                        },
+                        {
+                            "name": "Christopher Jackson",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6sLwRSXSUF5JTUnQaFenyj"
+                            },
+                            "uri": "spotify:artist:6sLwRSXSUF5JTUnQaFenyj",
+                            "href": "https://api.spotify.com/v1/artists/6sLwRSXSUF5JTUnQaFenyj",
+                            "type": "artist",
+                            "id": "6sLwRSXSUF5JTUnQaFenyj"
+                        },
+                        {
+                            "name": "Original Broadway Cast of Hamilton",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3UUJfRbrA2nTbcg4i0MOwu"
+                            },
+                            "uri": "spotify:artist:3UUJfRbrA2nTbcg4i0MOwu",
+                            "href": "https://api.spotify.com/v1/artists/3UUJfRbrA2nTbcg4i0MOwu",
+                            "type": "artist",
+                            "id": "3UUJfRbrA2nTbcg4i0MOwu"
+                        }
+                    ],
+                    "duration_ms": 83632,
+                    "external_ids": {
+                        "isrc": "USAT21502611"
+                    },
+                    "type": "track",
+                    "id": "6p7jXaTJdpzGWnOJoK2jYr",
+                    "available_markets": [
+                        "AD",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "EC",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IS",
+                        "IT",
+                        "JP",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "PY",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY"
+                    ]
+                },
+                "added_by": {
+                    "href": "https://api.spotify.com/v1/users/12186663114",
+                    "type": "user",
+                    "id": "12186663114",
+                    "uri": "spotify:user:12186663114",
+                    "external_urls": {
+                        "spotify": "http://open.spotify.com/user/12186663114"
+                    }
+                },
+                "added_at": "2016-09-29T00:38:38Z"
+            },
+            {
+                "is_local": false,
+                "track": {
+                    "album": {
+                        "album_type": "album",
+                        "name": "Hamilton (Original Broadway Cast Recording)",
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1kCHru7uhxBUdzkm4gzRQc"
+                        },
+                        "uri": "spotify:album:1kCHru7uhxBUdzkm4gzRQc",
+                        "href": "https://api.spotify.com/v1/albums/1kCHru7uhxBUdzkm4gzRQc",
+                        "artists": [
+                            {
+                                "name": "Various Artists",
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                                },
+                                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                                "type": "artist",
+                                "id": "0LyfQWJT6nXafLPZqxe9Of"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/680f63e0199dc160f414b5be084b3d91493c67a6",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/cab99e12568f975eacaf11dac9493d7c07e51e4e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/6578cd1487e860466928a896e93c8e1641744e04",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "type": "album",
+                        "id": "1kCHru7uhxBUdzkm4gzRQc",
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY"
+                        ]
+                    },
+                    "name": "Blow Us All Away",
+                    "uri": "spotify:track:6lsFGDo1IEEPFKh94c9kFe",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/6lsFGDo1IEEPFKh94c9kFe"
+                    },
+                    "popularity": 65,
+                    "explicit": true,
+                    "preview_url": "https://p.scdn.co/mp3-preview/9593e725697ebc1e863a1b06ecea8d9ddaeae68c?cid=ec548750929f4ba7925acbe76d9b0abe",
+                    "track_number": 16,
+                    "disc_number": 2,
+                    "href": "https://api.spotify.com/v1/tracks/6lsFGDo1IEEPFKh94c9kFe",
+                    "artists": [
+                        {
+                            "name": "Anthony Ramos",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/660YptcR0hNHJ8iEr1qcse"
+                            },
+                            "uri": "spotify:artist:660YptcR0hNHJ8iEr1qcse",
+                            "href": "https://api.spotify.com/v1/artists/660YptcR0hNHJ8iEr1qcse",
+                            "type": "artist",
+                            "id": "660YptcR0hNHJ8iEr1qcse"
+                        },
+                        {
+                            "name": "Ariana DeBose",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1Np9GsrPO7dlczjvdehBxs"
+                            },
+                            "uri": "spotify:artist:1Np9GsrPO7dlczjvdehBxs",
+                            "href": "https://api.spotify.com/v1/artists/1Np9GsrPO7dlczjvdehBxs",
+                            "type": "artist",
+                            "id": "1Np9GsrPO7dlczjvdehBxs"
+                        },
+                        {
+                            "name": "Sasha Hutchings",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0Pg2rEmiZEnmxw4eQwtvsR"
+                            },
+                            "uri": "spotify:artist:0Pg2rEmiZEnmxw4eQwtvsR",
+                            "href": "https://api.spotify.com/v1/artists/0Pg2rEmiZEnmxw4eQwtvsR",
+                            "type": "artist",
+                            "id": "0Pg2rEmiZEnmxw4eQwtvsR"
+                        },
+                        {
+                            "name": "Ephraim Sykes",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3brilvMAN6ILRUMvaqJWdG"
+                            },
+                            "uri": "spotify:artist:3brilvMAN6ILRUMvaqJWdG",
+                            "href": "https://api.spotify.com/v1/artists/3brilvMAN6ILRUMvaqJWdG",
+                            "type": "artist",
+                            "id": "3brilvMAN6ILRUMvaqJWdG"
+                        },
+                        {
+                            "name": "Lin-Manuel Miranda",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4aXXDj9aZnlshx7mzj3W1N"
+                            },
+                            "uri": "spotify:artist:4aXXDj9aZnlshx7mzj3W1N",
+                            "href": "https://api.spotify.com/v1/artists/4aXXDj9aZnlshx7mzj3W1N",
+                            "type": "artist",
+                            "id": "4aXXDj9aZnlshx7mzj3W1N"
+                        },
+                        {
+                            "name": "Original Broadway Cast of Hamilton",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3UUJfRbrA2nTbcg4i0MOwu"
+                            },
+                            "uri": "spotify:artist:3UUJfRbrA2nTbcg4i0MOwu",
+                            "href": "https://api.spotify.com/v1/artists/3UUJfRbrA2nTbcg4i0MOwu",
+                            "type": "artist",
+                            "id": "3UUJfRbrA2nTbcg4i0MOwu"
+                        }
+                    ],
+                    "duration_ms": 173594,
+                    "external_ids": {
+                        "isrc": "USAT21502634"
+                    },
+                    "type": "track",
+                    "id": "6lsFGDo1IEEPFKh94c9kFe",
+                    "available_markets": [
+                        "AD",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "EC",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IS",
+                        "IT",
+                        "JP",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "PY",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY"
+                    ]
+                },
+                "added_by": {
+                    "href": "https://api.spotify.com/v1/users/12186663114",
+                    "type": "user",
+                    "id": "12186663114",
+                    "uri": "spotify:user:12186663114",
+                    "external_urls": {
+                        "spotify": "http://open.spotify.com/user/12186663114"
+                    }
+                },
+                "added_at": "2016-09-29T00:39:04Z"
+            },
+            {
+                "is_local": false,
+                "track": {
+                    "album": {
+                        "album_type": "album",
+                        "name": "Hamilton (Original Broadway Cast Recording)",
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1kCHru7uhxBUdzkm4gzRQc"
+                        },
+                        "uri": "spotify:album:1kCHru7uhxBUdzkm4gzRQc",
+                        "href": "https://api.spotify.com/v1/albums/1kCHru7uhxBUdzkm4gzRQc",
+                        "artists": [
+                            {
+                                "name": "Various Artists",
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                                },
+                                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                                "type": "artist",
+                                "id": "0LyfQWJT6nXafLPZqxe9Of"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/680f63e0199dc160f414b5be084b3d91493c67a6",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/cab99e12568f975eacaf11dac9493d7c07e51e4e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/6578cd1487e860466928a896e93c8e1641744e04",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "type": "album",
+                        "id": "1kCHru7uhxBUdzkm4gzRQc",
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY"
+                        ]
+                    },
+                    "name": "The World Was Wide Enough",
+                    "uri": "spotify:track:0P09TBGSKiQwfUsEh1UafT",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/0P09TBGSKiQwfUsEh1UafT"
+                    },
+                    "popularity": 65,
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/5601f56ca9cbc0dcc70690268fe444480acb79a2?cid=ec548750929f4ba7925acbe76d9b0abe",
+                    "track_number": 22,
+                    "disc_number": 2,
+                    "href": "https://api.spotify.com/v1/tracks/0P09TBGSKiQwfUsEh1UafT",
+                    "artists": [
+                        {
+                            "name": "Leslie Odom Jr.",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3cR4rhS2hBWqI7rJEBacvN"
+                            },
+                            "uri": "spotify:artist:3cR4rhS2hBWqI7rJEBacvN",
+                            "href": "https://api.spotify.com/v1/artists/3cR4rhS2hBWqI7rJEBacvN",
+                            "type": "artist",
+                            "id": "3cR4rhS2hBWqI7rJEBacvN"
+                        },
+                        {
+                            "name": "Lin-Manuel Miranda",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4aXXDj9aZnlshx7mzj3W1N"
+                            },
+                            "uri": "spotify:artist:4aXXDj9aZnlshx7mzj3W1N",
+                            "href": "https://api.spotify.com/v1/artists/4aXXDj9aZnlshx7mzj3W1N",
+                            "type": "artist",
+                            "id": "4aXXDj9aZnlshx7mzj3W1N"
+                        },
+                        {
+                            "name": "Original Broadway Cast of Hamilton",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3UUJfRbrA2nTbcg4i0MOwu"
+                            },
+                            "uri": "spotify:artist:3UUJfRbrA2nTbcg4i0MOwu",
+                            "href": "https://api.spotify.com/v1/artists/3UUJfRbrA2nTbcg4i0MOwu",
+                            "type": "artist",
+                            "id": "3UUJfRbrA2nTbcg4i0MOwu"
+                        }
+                    ],
+                    "duration_ms": 302191,
+                    "external_ids": {
+                        "isrc": "USAT21502640"
+                    },
+                    "type": "track",
+                    "id": "0P09TBGSKiQwfUsEh1UafT",
+                    "available_markets": [
+                        "AD",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "EC",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IS",
+                        "IT",
+                        "JP",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "PY",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY"
+                    ]
+                },
+                "added_by": {
+                    "href": "https://api.spotify.com/v1/users/12186663114",
+                    "type": "user",
+                    "id": "12186663114",
+                    "uri": "spotify:user:12186663114",
+                    "external_urls": {
+                        "spotify": "http://open.spotify.com/user/12186663114"
+                    }
+                },
+                "added_at": "2016-09-29T00:39:12Z"
+            },
+            {
+                "is_local": false,
+                "track": {
+                    "album": {
+                        "album_type": "album",
+                        "name": "Hamilton (Original Broadway Cast Recording)",
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1kCHru7uhxBUdzkm4gzRQc"
+                        },
+                        "uri": "spotify:album:1kCHru7uhxBUdzkm4gzRQc",
+                        "href": "https://api.spotify.com/v1/albums/1kCHru7uhxBUdzkm4gzRQc",
+                        "artists": [
+                            {
+                                "name": "Various Artists",
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                                },
+                                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                                "type": "artist",
+                                "id": "0LyfQWJT6nXafLPZqxe9Of"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/680f63e0199dc160f414b5be084b3d91493c67a6",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/cab99e12568f975eacaf11dac9493d7c07e51e4e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/6578cd1487e860466928a896e93c8e1641744e04",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "type": "album",
+                        "id": "1kCHru7uhxBUdzkm4gzRQc",
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY"
+                        ]
+                    },
+                    "name": "Who Lives, Who Dies, Who Tells Your Story",
+                    "uri": "spotify:track:7EsSVPxaYoAZjQwhspJBs2",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7EsSVPxaYoAZjQwhspJBs2"
+                    },
+                    "popularity": 66,
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/130219ea3da007df90a7c4f8ee800c58aa4dfe4e?cid=ec548750929f4ba7925acbe76d9b0abe",
+                    "track_number": 23,
+                    "disc_number": 2,
+                    "href": "https://api.spotify.com/v1/tracks/7EsSVPxaYoAZjQwhspJBs2",
+                    "artists": [
+                        {
+                            "name": "Original Broadway Cast of Hamilton",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3UUJfRbrA2nTbcg4i0MOwu"
+                            },
+                            "uri": "spotify:artist:3UUJfRbrA2nTbcg4i0MOwu",
+                            "href": "https://api.spotify.com/v1/artists/3UUJfRbrA2nTbcg4i0MOwu",
+                            "type": "artist",
+                            "id": "3UUJfRbrA2nTbcg4i0MOwu"
+                        }
+                    ],
+                    "duration_ms": 217229,
+                    "external_ids": {
+                        "isrc": "USAT21502641"
+                    },
+                    "type": "track",
+                    "id": "7EsSVPxaYoAZjQwhspJBs2",
+                    "available_markets": [
+                        "AD",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "EC",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IS",
+                        "IT",
+                        "JP",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "PY",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY"
+                    ]
+                },
+                "added_by": {
+                    "href": "https://api.spotify.com/v1/users/12186663114",
+                    "type": "user",
+                    "id": "12186663114",
+                    "uri": "spotify:user:12186663114",
+                    "external_urls": {
+                        "spotify": "http://open.spotify.com/user/12186663114"
+                    }
+                },
+                "added_at": "2016-09-29T00:39:17Z"
+            },
+            {
+                "is_local": false,
+                "track": {
+                    "album": {
+                        "album_type": "album",
+                        "name": "Hamilton (Original Broadway Cast Recording)",
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/1kCHru7uhxBUdzkm4gzRQc"
+                        },
+                        "uri": "spotify:album:1kCHru7uhxBUdzkm4gzRQc",
+                        "href": "https://api.spotify.com/v1/albums/1kCHru7uhxBUdzkm4gzRQc",
+                        "artists": [
+                            {
+                                "name": "Various Artists",
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                                },
+                                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                                "type": "artist",
+                                "id": "0LyfQWJT6nXafLPZqxe9Of"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "url": "https://i.scdn.co/image/680f63e0199dc160f414b5be084b3d91493c67a6",
+                                "width": 640,
+                                "height": 640
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/cab99e12568f975eacaf11dac9493d7c07e51e4e",
+                                "width": 300,
+                                "height": 300
+                            },
+                            {
+                                "url": "https://i.scdn.co/image/6578cd1487e860466928a896e93c8e1641744e04",
+                                "width": 64,
+                                "height": 64
+                            }
+                        ],
+                        "type": "album",
+                        "id": "1kCHru7uhxBUdzkm4gzRQc",
+                        "available_markets": [
+                            "AD",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "BE",
+                            "BG",
+                            "BO",
+                            "BR",
+                            "CA",
+                            "CH",
+                            "CL",
+                            "CO",
+                            "CR",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DK",
+                            "DO",
+                            "EC",
+                            "EE",
+                            "ES",
+                            "FI",
+                            "FR",
+                            "GB",
+                            "GR",
+                            "GT",
+                            "HK",
+                            "HN",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IS",
+                            "IT",
+                            "JP",
+                            "LI",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "MC",
+                            "MT",
+                            "MX",
+                            "MY",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NZ",
+                            "PA",
+                            "PE",
+                            "PH",
+                            "PL",
+                            "PT",
+                            "PY",
+                            "SE",
+                            "SG",
+                            "SK",
+                            "SV",
+                            "TR",
+                            "TW",
+                            "US",
+                            "UY"
+                        ]
+                    },
+                    "name": "Non-Stop",
+                    "uri": "spotify:track:7qfoq1JFKBUEIvhqOHzuqX",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7qfoq1JFKBUEIvhqOHzuqX"
+                    },
+                    "popularity": 70,
+                    "explicit": false,
+                    "preview_url": "https://p.scdn.co/mp3-preview/92c27c363ffb3c84fe7356de9c60a79e1e69780b?cid=ec548750929f4ba7925acbe76d9b0abe",
+                    "track_number": 23,
+                    "disc_number": 1,
+                    "href": "https://api.spotify.com/v1/tracks/7qfoq1JFKBUEIvhqOHzuqX",
+                    "artists": [
+                        {
+                            "name": "Leslie Odom Jr.",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3cR4rhS2hBWqI7rJEBacvN"
+                            },
+                            "uri": "spotify:artist:3cR4rhS2hBWqI7rJEBacvN",
+                            "href": "https://api.spotify.com/v1/artists/3cR4rhS2hBWqI7rJEBacvN",
+                            "type": "artist",
+                            "id": "3cR4rhS2hBWqI7rJEBacvN"
+                        },
+                        {
+                            "name": "Lin-Manuel Miranda",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/4aXXDj9aZnlshx7mzj3W1N"
+                            },
+                            "uri": "spotify:artist:4aXXDj9aZnlshx7mzj3W1N",
+                            "href": "https://api.spotify.com/v1/artists/4aXXDj9aZnlshx7mzj3W1N",
+                            "type": "artist",
+                            "id": "4aXXDj9aZnlshx7mzj3W1N"
+                        },
+                        {
+                            "name": "Ren\u00e9e Elise Goldsberry",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/5VJN4jB6PqqEg4kJiAj6Eu"
+                            },
+                            "uri": "spotify:artist:5VJN4jB6PqqEg4kJiAj6Eu",
+                            "href": "https://api.spotify.com/v1/artists/5VJN4jB6PqqEg4kJiAj6Eu",
+                            "type": "artist",
+                            "id": "5VJN4jB6PqqEg4kJiAj6Eu"
+                        },
+                        {
+                            "name": "Phillipa Soo",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/2OEGI2wrCVmvavKEOMlccy"
+                            },
+                            "uri": "spotify:artist:2OEGI2wrCVmvavKEOMlccy",
+                            "href": "https://api.spotify.com/v1/artists/2OEGI2wrCVmvavKEOMlccy",
+                            "type": "artist",
+                            "id": "2OEGI2wrCVmvavKEOMlccy"
+                        },
+                        {
+                            "name": "Christopher Jackson",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6sLwRSXSUF5JTUnQaFenyj"
+                            },
+                            "uri": "spotify:artist:6sLwRSXSUF5JTUnQaFenyj",
+                            "href": "https://api.spotify.com/v1/artists/6sLwRSXSUF5JTUnQaFenyj",
+                            "type": "artist",
+                            "id": "6sLwRSXSUF5JTUnQaFenyj"
+                        },
+                        {
+                            "name": "Original Broadway Cast of Hamilton",
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3UUJfRbrA2nTbcg4i0MOwu"
+                            },
+                            "uri": "spotify:artist:3UUJfRbrA2nTbcg4i0MOwu",
+                            "href": "https://api.spotify.com/v1/artists/3UUJfRbrA2nTbcg4i0MOwu",
+                            "type": "artist",
+                            "id": "3UUJfRbrA2nTbcg4i0MOwu"
+                        }
+                    ],
+                    "duration_ms": 385438,
+                    "external_ids": {
+                        "isrc": "USAT21502618"
+                    },
+                    "type": "track",
+                    "id": "7qfoq1JFKBUEIvhqOHzuqX",
+                    "available_markets": [
+                        "AD",
+                        "AR",
+                        "AT",
+                        "AU",
+                        "BE",
+                        "BG",
+                        "BO",
+                        "BR",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "EC",
+                        "EE",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GR",
+                        "GT",
+                        "HK",
+                        "HN",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IS",
+                        "IT",
+                        "JP",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MC",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "PA",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "PY",
+                        "SE",
+                        "SG",
+                        "SK",
+                        "SV",
+                        "TR",
+                        "TW",
+                        "US",
+                        "UY"
+                    ]
+                },
+                "added_by": {
+                    "href": "https://api.spotify.com/v1/users/12186663114",
+                    "type": "user",
+                    "id": "12186663114",
+                    "uri": "spotify:user:12186663114",
+                    "external_urls": {
+                        "spotify": "http://open.spotify.com/user/12186663114"
+                    }
+                },
+                "added_at": "2016-11-17T09:47:24Z"
+            }
+        ],
+        "next": null,
+        "href": "https://api.spotify.com/v1/users/12186663114/playlists/2XcRigegs6l625qChqARQd/tracks?offset=0&limit=100",
+        "limit": 100,
+        "offset": 0,
+        "total": 7,
+        "previous": null
+    },
+    "href": "https://api.spotify.com/v1/users/12186663114/playlists/2XcRigegs6l625qChqARQd",
+    "followers": {
+        "total": 0,
+        "href": null
+    },
+    "snapshot_id": "DUk6lp1ya3RQS/MFqyzn0c+fKRAV3lKhZ3nwskgC62Jez/3jVRteKgK5MG1FPBT4",
+    "images": [
+        {
+            "url": "https://i.scdn.co/image/680f63e0199dc160f414b5be084b3d91493c67a6",
+            "width": 640,
+            "height": 640
+        }
+    ],
+    "type": "playlist",
+    "id": "2XcRigegs6l625qChqARQd",
+    "name": "hamilton duels"
+}
