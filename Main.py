@@ -4,12 +4,15 @@ import spotipy.util as util
 import json
 import re
 import os
+from spotipy.oauth2 import SpotifyClientCredentials
+
 
 from read_a_playlist import getTracks
 from merge import merge
 from user_playlists import getPlaylists
 
-scope = 'playlist-modify-public'
+scope = 'playlist-modify-private'
+
 
 #Initial Call Main.py Userid 
 #Receives a userid, will return a hash of h{songName} = songId
@@ -25,7 +28,7 @@ def findPlayLists(username = None):
         return
 
 def makePlaylist(username, playlist_options, playlist_name, playlist_url):
-    #Display options -> Front end   
+    #Display options -> Front end
     keys = playlist_options.keys()
     r = re.compile(".*"+playlist_name+".*")
     playlist_id = filter(r.match, keys)
@@ -38,22 +41,29 @@ def makePlaylist(username, playlist_options, playlist_name, playlist_url):
     #merge playlists
     # get a list of songs that will be added into the new playlist
     track_ids = merge(track1, track2)
+    print("hello world")
+
+    client_credentials_manager = SpotifyClientCredentials()
+    sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
+    # # token = sp._auth_headers()
+
     token = util.prompt_for_user_token(username, scope)
-    os.remove(".cache-" + username)
+    print(token)
+    # os.remove(".cache-" + username)
     if token:
     #userid = sp.me()['uri'] someone's user id must be processed before this function
-        sp = spotipy.Spotify(auth=token)
-        sp.trace = False
+        # sp = spotipy.Spotify(auth=token)
+        # sp.trace = False
 
-    # # #create a new playlist for yourself
+        # # #create a new playlist for yourself
         playlists = sp.user_playlist_create(username, playlist_name, public=True)
-    # get playlist id
+        # get playlist id
         plid = playlists['id']
 
-    # # Add songs
-        if (os.path.exists(".cache-" + username)):
-            print "file deleted"
-            os.remove(".cache-" + username)
+        # # Add songs
+        #     if (os.path.exists(".cache-" + username)):
+        #         print "file deleted"
+        #         os.remove(".cache-" + username)
         results = sp.user_playlist_add_tracks(username, plid, track_ids)
         print(results)
         return results
