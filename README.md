@@ -1,4 +1,4 @@
-Solve your road trip music dramas with Zippify! (Created for the 2017 Sydney Facebook Hackathon)
+Solve your road trip music dramas with __Zippify!__ (Created for the 2017 Sydney Facebook Hackathon)
 
 "Zip" your Spotify playlist with your friend's playlist so that the song queue is distributed evenly. 
 It's the intelligent way to "shuffle" your music. Less fights about music = Best BFF Road Trip Ever
